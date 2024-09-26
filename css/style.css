@@ -5,27 +5,32 @@ body{
    padding: 0;
 }
 
+header{
+    background-color: rgb(255, 0, 200);
+    text-align: center;
+    justify-content: space-around;
+}
+
 .Conteiner{
     display: flex; /*torna a div flexivel*/
     flex-wrap: wrap; /*"protege" as div's entre elas*/
-    justify-content: space-around; /*espaço entre as divs*/
-    margin-top: 70px; /*margem de distancia das divs*/
+    text-align: center;
+
 }
 
 .profissões{
-    margin: 10px; /*margem entre as divs */
-    background-color: aqua;
-    border: 5px double rgb(42, 29, 73); /*cria bordar*/ 
-    border-radius: 50px; /*arredonda a borda */
-    padding: 10px; /*espaço entre inicio e linha*/
-    box-shadow: 5px, 5px, 20px rgb(85, 8, 8); /*cria sombra envolta da div, MAS TA DANDO ERRADO!!!!*/
+    margin: 10px; /*margem entre as divs */ 
     width: 15%; /*tamanho de cada div*/
     text-align: center;
+    text-align: initial;
 }
 
-image{
-    margin: 10px; ;
+.comp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 
 h1{
     font-family: 'Times New Roman', Times, serif;
