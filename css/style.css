@@ -19,10 +19,11 @@ header{
 }
 
 .profissões{
-    margin: 10px; /*margem entre as divs */ 
+    margin: 20px; /*margem entre as divs */ 
     width: 15%; /*tamanho de cada div*/
     text-align: center;
     text-align: initial;
+    margin-top: 20px;
 }
 
 .comp{
@@ -31,6 +32,13 @@ header{
     justify-content: space-around;
 }
 
+.pro{ 
+    background-color: blueviolet;
+    border: 5px double cornsilk;
+    border-radius: 10px;
+    width: 25%;
+    padding: 20px;
+}
 
 h1{
     font-family: 'Times New Roman', Times, serif;
